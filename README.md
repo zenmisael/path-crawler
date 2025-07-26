@@ -1,4 +1,4 @@
-# Path-Crawl
+# Path-Crawler
 Another Path/Directory crawler
 
 # Dependencies
