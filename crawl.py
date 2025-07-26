@@ -53,6 +53,13 @@ def crawl(url, base_domain):
 def main():
     global log_file
 
+    print("""
+######################################################################
+#--> Dir Crawler                                                  <--#
+#--> by BORG                                                      <--#
+######################################################################
+""")
+
     args = get_arguments()
     target_url = args.url
     parsed = urlparse(target_url)
